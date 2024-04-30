@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@300;400&display=swap');
+
+
+.NavbarItems1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    height: 80px;
+    background-color: #F9C200;
+    box-shadow: 0 2px 2px #c1c1c1;
+    transform: translate(-500);
+    z-index: 9999;
+    font-family: "Rubik";
+    position: fixed !important;
+    top: 0 !important;
+
+
+}
+
+.Navbar-logo1 {
+    color: black;
+    font-size: 2.0rem;
+    text-decoration: none!important;
+
+
+}
+
+
+
+.Nav-menu {
+    
+    z-index: -1;
+    grid-template-columns: repeat(10, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+
+.nav_links {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    white-space: nowrap;
+
+}
+
+.nav_links:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+/* Restante do seu CSS */
+
+
+.nav_links:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+.nav_links_cadastro {
+    display: none;
+    color: aliceblue;
+    display: flex;
+    text-decoration: none;
+
+
+
+}
+
+.button-navbar1 {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 1.0rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: aliceblue;
+    transition: all 0.2 ease-in-out;
+    font-size: 1.3rem;
+    font-family: "Rubik";
+    display: flex;
+    
+
+
+}
+
+.button-navbar1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu_icons1 {
+    display: none;
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .NavbarItems {
+        z-index: 99;
+    }
+
+    .Nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #ffffff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: 0.s ease-in-out;
+
+    }
+
+
+    .Nav-menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+        transition: 0.s ease-in-out;
+
+
+    }
+
+    .nav_links {
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+
+    .nav_links i {
+        padding-right: 10px;
+    }
+
+    .nav_links:hover {
+        transition: none;
+        color: #ffffff;
+        background-color: #F9C200;
+    }
+
+
+
+    button {
+        display: none;
+
+    }
+
+    .nav_links_cadastro {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 4px;
+        width: 80%;
+        background: #000000;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+
+    }
+
+    .menu_icons {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .menu_icons i {
+        font-size: 2.2rem;
+        color: rgb(0, 0, 0);
+
+    }
+}

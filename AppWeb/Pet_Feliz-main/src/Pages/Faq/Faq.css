@@ -1,0 +1,78 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.faq-body{
+  height: 70%;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.wrapper {
+
+}
+
+div.wrapper div.faq-title {
+  align-items: center;
+  text-align: center;
+  margin-top: 10%; /* Adicione uma margem superior igual à altura da sua barra de navegação */
+
+}
+
+.faq-title{
+}
+
+.accordion{
+  width: 60%;
+  height: 5%;
+  margin-left: 20%;
+}
+
+.accordion h2{
+  margin-left: 10%;
+}
+
+.item {
+  display: block;
+  margin-top: 20%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #f9c200;
+  margin-top: 2rem;
+  font-family: arial;
+  line-height: 1;
+  transition: margin-bottom 0.5s ease;
+}
+
+.title-faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  height: 4rem;
+  width: 42rem;
+
+}
+
+span{
+  font-size: 100%;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  
+}
+
+.content.show {
+  max-height: 9999px;
+  transition: max-height 0.5s ease-in-out;
+  line-height: 1.8;
+  padding: 5%;
+}
+
+

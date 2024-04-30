@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Glory;
+    border: none;
+}
+
+.title-filtro{
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: -5%;
+}
+
+
+.filtros {
+    display: flex;
+    width: 78rem;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+
+
+}
+
+
+
+/* Adiciona uma classe para a coluna */
+.coluna1 {
+    margin-top: 10%;
+    width: 40%;
+    height: 15rem;
+    flex-direction: column;
+    background-color:  #f8c100;
+    border-radius: 5px 0% 0% 5px;
+
+
+
+}
+
+.coluna2 {
+    margin-top: 10%;
+    width: 40%;
+    height: 15rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8c100;
+    border-radius: 0px 5px 5px 0%;
+
+
+
+}
+
+
+.filtro {
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    width: 30rem;
+    margin-left: 2%;
+    
+}
+
+
+
+.title {
+    margin-top: 2%;
+    font-size: 1rem;
+
+}
+
+.title h1{
+    font-size: 2rem;
+    margin-left: -20%;
+
+}
+
+
+.cards-container1 {
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0; /* Remova a margem superior para reduzir o espaço entre os cards */
+}
+
+.paginacao {
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+
+.bnt-limpar{
+    height: 3rem;
+    width: 8rem;
+    color: black;
+    display: flex;
+    margin-left: 50%;
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 2px 2px 1px rgba(122,122,122,1);
+-moz-box-shadow: -1px 2px 5px 1px rgba(122,122,122,1);
+box-shadow: -1px 2px 2px 1px rgba(122,122,122,1);
+
+
+
+}
+
+
+
